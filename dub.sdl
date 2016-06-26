@@ -1,0 +1,8 @@
+name "rc"
+
+description "Reference counting"
+authors "deviator"
+copyright "Copyright © 2016, deviator"
+license "MIT"
+
+targetType "sourceLibrary"
