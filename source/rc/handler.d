@@ -215,9 +215,6 @@ struct RCArray(T)
     }
 
     ///
-    size_t opDollar() const @property { return work.length; }
-
-    ///
     void opAssign(X=this)( auto ref RCArray!T arr )
     {
         decRef();
